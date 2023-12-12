@@ -1,0 +1,26 @@
+{
+  "name": "robot_scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js -t product"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HernanVillela/robot_scraping.git"
+  },
+  "author": "Hernán Villela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HernanVillela/robot_scraping/issues"
+  },
+  "homepage": "https://github.com/HernanVillela/robot_scraping#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1"
+  }
+}
